@@ -1,0 +1,86 @@
+body{
+    .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }    
+}
+.center{
+    text-align: center;
+    color: rgb(156, 97, 97);
+}
+.yellow{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.menu-half{
+    width: 80%;
+    padding: 150px;
+    padding-right: 20px;
+   
+}
+.menu-half img {
+    width: auto;
+    background-image: url(images/Group\ 8450.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+.menu-half-02{
+    padding: 50px;
+}
+.menu-half-01{
+    width: 90%;
+    border: 5px;
+    padding: 100px;
+}
+.container-first{
+    display: flex;
+    background-image: url(images/7.png);
+   background-repeat: no-repeat;
+   border: 0px;
+   margin: 0;
+   padding: 0;
+}
+.container-2nd {
+    display: flex;
+    background-image: url(images/top-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: small;
+}
+    
+.container-3rd{
+    width: 100%;
+    height: 100%;
+}
+.recipes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+#health-recipes{
+    width: 500px;
+    height: 150px; 
+    border-image:linear-gradient(blue orange) ;
+    border: 2px solid rgb(168, 168, 185);
+    margin: 10px;
+    padding: 5px;
+    background-color: coral;
+    box-shadow: 5px 10px 200px 50px color(rgb(31, 3, 58));
+    border-radius: 20px;
+  }
+
+#health-recipes img{
+    width: 100%; 
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(10, 163, 23);
+    background-image: -o-linear-gradient(#22c1c3 #fdbb2d);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 700;
+}
